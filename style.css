@@ -1,40 +1,81 @@
+*{
+margin:0;
+padding:0;
+}
+   .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
-body{
-    background-color: blueviolet;
-    height: 100vh;
+
+  
+
+.signup-box{
+width: 320px;
+height: 620px;
+margin: auto;
+background-color: rgb(208, 215, 228);
+border-radius: 2%;
+
 }
 
 
-.container{
-  gap: 1.5rem;
-
-
-}
-
-.card{
-    border: 5px solid black;
-    height: 25rem;
-    width: 20rem;
-    padding: 2rem;
-    align-content:center;
-border-radius: 1rem;
- text-align: center;
- flex-direction: column;
- box-shadow: 12px 12px 24px;
- 
-
-}
-
-.flex{
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
 
 }
 
-.image{
-    height: 10rem;
-    border-radius: 50%;
+
+.form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+form input{
+width: ;
+padding: 7px;
+border: none;
+border: 1px solid gray;
+border-radius: 6px;
+outline: none;
+
+input{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 

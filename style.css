@@ -1,0 +1,40 @@
+
+body{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+
+.container{
+  gap: 1.5rem;
+
+
+}
+
+.card{
+    border: 5px solid black;
+    height: 25rem;
+    width: 20rem;
+    padding: 2rem;
+    align-content:center;
+border-radius: 1rem;
+ text-align: center;
+ flex-direction: column;
+ box-shadow: 12px 12px 24px;
+ 
+
+}
+
+.flex{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+.image{
+    height: 10rem;
+    border-radius: 50%;
+}
+
